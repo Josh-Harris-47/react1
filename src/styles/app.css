@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  text-align: center;
+  background-color: coral; }
+
+.app-header {
+  height: 60px;
+  background-color: black;
+  color: white;
+  width: 100%; }
+
+.app-header h1 {
+  padding: 0;
+  margin: 0; }
+
+.app-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+  min-height: 1000px;
+  height: 100%; }
+  .app-wrapper .app-nav {
+    width: 100px;
+    background-color: teal; }
+    .app-wrapper .app-nav .nav-item {
+      height: 60px;
+      background-color: teal;
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      .app-wrapper .app-nav .nav-item.active-nav {
+        background-color: aquamarine; }
+      .app-wrapper .app-nav .nav-item:hover {
+        background-color: aqua; }
+  .app-wrapper .app-main .screen {
+    margin-left: 10px; }
+
+/*# sourceMappingURL=app.css.map */
